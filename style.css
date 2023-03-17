@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,600,700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Libre Franklin', sans-serif;
+}
+main{
+    max-width: 40.625rem;
+	margin: 2.75rem auto 0 auto;
+	padding: 1.25rem;
+	text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 300;
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 0;
+}
+h2{
+    font-weight: 300;
+    color: hsl(209, 33%, 12%);
+}
+
+h1 strong {
+	color: hsl(209, 33%, 12%);
+}
+.i-b{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 1.875rem;
+}
+.i-e{
+    flex: 0.7;
+    margin-bottom: 1rem;
+}
+.i-e #email{
+    padding: 1.25rem 1.563rem;
+    border-radius: 2rem;
+    border: 1px solid hsl(223, 100%, 88%);
+    width: 100%;
+}
+
+.i-e #email::placeholder{
+    color: hsl(223, 100%, 88%);
+}
+.i-e #e-txt{
+    color: hsl(354, 100%, 66%);
+    font-size: 0.8rem;
+    margin: 0.5rem 0 0 1.563rem;
+    display: none;
+    text-align: left;
+}
+#btn{
+    border: 0;
+    border-radius: 2rem;
+    color: #fff;
+    background-color:hsl(223, 87%, 63%);
+    padding: 20px 0;
+    margin-left: 20px;
+    cursor: pointer;
+    flex: 0.3;
+    font-size: 16px;
+	font-weight: 600;
+    box-shadow: 0 5px 5px hsl(223, 100%, 88%);
+}
+#btn:hover{
+    opacity: .5;
+}
+
+.image {
+	max-width: 100%;
+	margin: 60px 0;
+}
+.icon{
+    border: 1px solid hsl(0, 0%, 59%);
+    padding: 0.4rem;
+    border-radius: 50%;
+    color: hsl(228, 45%, 44%);
+    margin: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    background-color: hsl(228, 45%, 44%);
+    color: #fff;
+}
+.copyright{
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+}
+.attribution { 
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 650px) {
+	.i-b {
+		flex-direction: column;
+		text-align: center;
+	}
+    .text h1{
+        font-size: 2rem;
+    }
+	.i-e {
+		width: 100%;
+	}
+	#btn{
+		margin-left: 0;
+		width: 100%;
+	}
+}
+
