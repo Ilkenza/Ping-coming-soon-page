@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+      <div class="txt">
+        <h1>Learn to code by watching others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. </p>
+      </div>
+      <div class="inp-t">
+        <div class="txti">
+          <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+        </div>
+        <div class="all-inp">
+          <div class="inp-f">
+            <input class="f" id="first-name" type="text" placeholder="First Name">
+            <img class="error" id="fn-e" src="./images/icon-error.svg" alt="">
+            <p id="fn-t">First Name cannot be empty</p>
+          </div>
+          <div class="inp-f">
+            <input class="f" id="last-name" type="text" placeholder="Last Name ">
+            <img class="error" id="ln-e" src="./images/icon-error.svg" alt="">
+            <p id="ln-t">Last Name cannot be empty</p>
+          </div>
+          <div class="inp-f">
+            <input class="f" id="email" type="email" placeholder="Email Address">
+            <img class="error" id="em-e" src="./images/icon-error.svg" alt="">
+            <p id="em-t">Looks like this is not an email</p>
+          </div>
+          <div class="inp-f">
+            <input class="f" id="password" type="password" placeholder="Password">
+            <img class="error" id="pa-e" src="./images/icon-error.svg" alt="">
+            <p id="pa-t">Password cannot be empty</p>
+          </div>
+          <div class="btn">
+            <button id="button" type="submit">Claim your free trial</button>
+            <p>By clicking the button, you are agreeing 
+              to our <span class="tas">Terms and Services</span></p>
+          </div>      
+        </div>
+      </div>
+  </main>
+  <footer>
+    <p class="attribution">
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
