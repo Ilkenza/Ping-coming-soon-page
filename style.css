@@ -17,14 +17,14 @@ main{
     height: 100vh;
 }
 main .img{
-    padding-top: 4.75rem;
+    padding-top: 3.75rem;
 }
 h1{
     font-size: 3rem;
     font-weight: 300;
     color: hsl(0, 0%, 59%);
-    margin-bottom: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
 }
 h2{
     font-weight: 300;
@@ -80,7 +80,7 @@ h1 strong {
 
 .image {
 	max-width: 100%;
-	margin: 3.75rem 0;
+	margin: 2.75rem 0;
 }
 .icon{
     border: 1px solid hsl(0, 0%, 59%);
